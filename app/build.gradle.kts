@@ -11,7 +11,7 @@ tasks.whenTaskAdded {
 
 android {
     namespace = "com.raincat.dolby_beta"
-    compileSdk = 37
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.raincat.dolby_beta"

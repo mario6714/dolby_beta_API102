@@ -15,10 +15,11 @@ jobs:
       - name: Checkout source code
         uses: actions/checkout@v4
 
-      - name: set up JDK 1.8
-        uses: actions/setup-java@v1
+      - name: set up JDK 17
+        uses: actions/setup-java@v4
         with:
-       java-version: '17'
+          java-version: '17'
+          distribution: 'zulu' # This is required by setup-java@v4
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew

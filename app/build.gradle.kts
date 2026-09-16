@@ -11,12 +11,12 @@ tasks.whenTaskAdded {
 
 android {
     namespace = "com.raincat.dolby_beta"
-    compileSdk = 34
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.raincat.dolby_beta"
         minSdk = 26
-        targetSdk = 34
+        targetSdk = 37
         versionCode = 400
         versionName = "4.0.0"
 
